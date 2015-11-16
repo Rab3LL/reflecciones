@@ -9,3 +9,10 @@ What happens when you initialize a repository? Why do you need to do it?
 	El repositorio se encuentra vacio porque todavía no indicamos qué archivos son 
 	los que deseamos seguir de cerca. Esto se debe a que talvez, no deseamos seguir 
 	a todos los archivos y solo a unos cuantos.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	El área de staging es el lugar intermedio entre el área de trabajo y el área de 
+	commit. Es el área en donde se le hacen cambios a los archivos que estan en el 
+	área de trabajo pero aún no estan listos para pasar por el proceso de commit. 
+	Pienso que el área de staging nos permite experimentar cambios antes de que 
+	decidamos hacerlos permanentes.
