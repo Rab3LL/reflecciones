@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Primero uno debe colocorse en el folder en donde se desea crear el repository. 
+	Después de ejecutar el comando que crea el repository se crea un folder oculto 
+	en el folder en donde nos encontramos. El folder oculto para poder ser visto 
+	se debe usar el comando ls -a. El folder oculto tiene el nombre de .git El 
+	ejecutar el comando git log en el nuevo repositorio causa un error debido a 
+	que el repositorio se encuentra vacio, es decir, todavía no se han hecho 
+	ningún commit.
+	El repositorio se encuentra vacio porque todavía no indicamos qué archivos son 
+	los que deseamos seguir de cerca. Esto se debe a que talvez, no deseamos seguir 
+	a todos los archivos y solo a unos cuantos.

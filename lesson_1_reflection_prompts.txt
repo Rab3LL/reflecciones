@@ -1,0 +1,58 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+	El hecho de que se cuente tanto con la versión que sí funcionaba como con 
+	la versión que no funciona y además, se puedan observar los cambios y 
+	diferencias entre las dos versiones, es más fácil enfocarse en las partes
+	que realmente están causando los problemas en el código y no perder tiempo
+	en las partes que no son relevantes.
+
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+    Se puede ir observando la evolución constante del programa a lo largo del tiempo.
+    Es posible ver patrones recurrentes de cambios entre versiones.
+    
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    Las ventajas de que se realizen los commits de manera manual es que uno puede 
+    dividir los cambios de manera temática, es decir, que los cambios que fueron 
+    realizados en un commit se refieren todos a la solución de un solo problema a 
+    la vez. De esa forma se proporciona un contexto al motivo del cambio y se 
+    facilita su comprensión.
+    La desventaja es que se corre el riesgo de caer facilmente en los extremos.
+    Los extremos son que se pueden hacer demasiado frecuente o con muy poca 
+    frecuencia. Solo la experiencia del programador dictará el punto óptimo para 
+    realizar los commits.
+ 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+    La importancia de que Git permita hacer el commit de varios archivos a la vez
+    es porque los cambios realizados tengan afectaciones en múltiples archivos al 
+    un mismo tiempo.
+
+How can you use the commands git log and git diff to view the history of files?
+    Cuando buscamos un cambio o corrección en específico, lo podemos buscar por 
+    "tema" usando la breve explicación de los cambios que aparecen al utilizar 
+    git log. Una vez que encontramos el comit que nos interesa tomamos nota de 
+    su id y del id de su commit inmediato anterior para utilizarlos de parámetros 
+    del comando git diff. El output del git diff nos proporciona en específico 
+    los cambios añadidos al código, mostrados de color verde y con un signo +. 
+    Los cambios eliminados son mostrados de color rojo y con el signo -. El 
+    código que no tuvo cambios se indica de color blanco. De todos los cambios, 
+    ya sean adiciones o eliminaciones se muestra de todo el archivo solo 3 o 4 
+    renglones antes y después de los cambios.
+
+How might using version control make you more confident to make changes that
+could break something?
+    El uso de la herramienta de Git proporciona la confianza de poder modificar 
+    el código en cualquier momento. Esta confianza se debe a la habilidad de Git 
+    de poder re-establecer el código a la condición original a cuando introducimos 
+    los cambios. De esta forma sabemos que podemos probar diferentes ideas sin que 
+    causemos daños irreparables al código.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    Trabajar en un proyecto de buen tamaño para poder aplicar lo aprendido.
