@@ -16,3 +16,11 @@ How is the staging area different from the working directory and the repository?
 	área de trabajo pero aún no estan listos para pasar por el proceso de commit. 
 	Pienso que el área de staging nos permite experimentar cambios antes de que 
 	decidamos hacerlos permanentes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+	Con el fin de poder realizar un commit por cada cambio lógico al código se 
+	utiliza la staging area como una to-do list. La staging area se utiliza como la 
+	lista de cambios por realizar un commit. De esta forma se tiene una relación de 
+	cambios que requieren ser procesados por un commit y así poder clasificar 
+	mentalmente por "tema" los cambios. Todos los cambios que pertenezca a un mismo 
+	"tema" deberán ser procesados por un mismo commit.
