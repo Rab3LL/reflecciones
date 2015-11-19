@@ -24,3 +24,16 @@ How can you use the staging area to make sure you have one commit per logical ch
 	cambios que requieren ser procesados por un commit y así poder clasificar 
 	mentalmente por "tema" los cambios. Todos los cambios que pertenezca a un mismo 
 	"tema" deberán ser procesados por un mismo commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	El uso de branches puede ser muy útil. Por ejemplo, cuando se desea hacer un 
+	experimento en el proyecto que no estamos seguros que vaya a funcionar o en el 
+	caso de programar un video juego podemos hacer una versión "difícil" para el 
+	jugador y otra versión del juego en el que es más "fácil" jugarlo.
+	En un inicio, cuando acabamos de crear el nuevo branch, cada branch contiene el
+	mismo código. Una vez que empezamos a trabajar en alguno de los branches y 
+	hacemos sus respectivos commits cada branch empieza a diferir del otro y así se 
+	inician diferentes evoluciones por cada uno de los branches. De esta forma se da 
+	mucha flexibilidad en empezar diferentes proyectos con una misma base pero con 
+	diferentes enfoques y desarrollos y sin añadirle una carga adicional para poder 
+	ir siguiendo sus respectivoas evoluciones.
