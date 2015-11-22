@@ -37,3 +37,8 @@ What are some situations when branches would be helpful in keeping your history 
 	mucha flexibilidad en empezar diferentes proyectos con una misma base pero con 
 	diferentes enfoques y desarrollos y sin añadirle una carga adicional para poder 
 	ir siguiendo sus respectivoas evoluciones.
+
+How do the diagrams help you visualize the branch structure?
+	El uso de diagramas en forma de "arbol" facilitan la visualización de la 
+	estructura del proyecto. El "master" funciona como el tronco principal y el 
+	resto de los "branch" hacen las veces de ramas que derivan del tronco principal. 
