@@ -42,3 +42,11 @@ How do the diagrams help you visualize the branch structure?
 	El uso de diagramas en forma de "arbol" facilitan la visualización de la 
 	estructura del proyecto. El "master" funciona como el tronco principal y el 
 	resto de los "branch" hacen las veces de ramas que derivan del tronco principal. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Hacer el merge de dos branches permite la integración de todos los cambios al 
+	código realizado en dos branches independientes en un solo branch. Se integran 
+	los cambios en una sola base de programa.
+	La forma en que representamos el diagrama de los branches y el merge nos ayuda 
+	a ver claramente quién es el papá de un commit y si algún commit es inaccesible 
+	a algún otro debido a que no existe conección alguna que los comunique.
