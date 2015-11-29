@@ -50,3 +50,17 @@ What is the result of merging two branches together? Why do we represent it in t
 	La forma en que representamos el diagrama de los branches y el merge nos ayuda 
 	a ver claramente quién es el papá de un commit y si algún commit es inaccesible 
 	a algún otro debido a que no existe conección alguna que los comunique.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Las ventajas de que se haga un merge automáticamente es que se ahorra tiempo de 
+	desarrollo. Git verifica rápidamente qué partes añadidas en un branch están 
+	ausentes en la otra, y a su vez git verifica las partes removidas en un branch 
+	aún existen en el otro. Con las verificaciones anteriores git realiza una 
+	conciliación de cambios de los dos branches dejando una sola unión sin mediar 
+	intervención alguna por parte del usuario. En cambio, si llegara a haber 
+	conflicto en haber modificaciones en un mismo lugar en ambos documentos el merge
+	automático no es de utilidad. En este caso, el usuario debe solucionar 
+	manualmente la discrepancia entre los documentos y decidir que modificaciones 
+	continuan y cuáles deben ser eliminados. Incluso se puede dar el caso que el 
+	usuario tiene que entrevistarse con otros usuarios para poder decidir qué 
+	acciones deben prevalecer en el merge final.
