@@ -1,0 +1,8 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  El uso de repositories remotos es útil sobretodo cuando se esta realizando un proyecto en 
+  equipo. El desarrollo de proyectos en equipo es más dinámico y eficiente cuando varios 
+  colaboradores pueden aportar de manera asincrónica y de manera segmentada partes del 
+  proyecto. Las aportaciones pueden ser realizadas con diferentes computadoras y en 
+  diferentes partes geográficas.
+  
+  
