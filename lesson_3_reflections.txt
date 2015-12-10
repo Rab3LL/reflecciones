@@ -12,8 +12,30 @@ automatically stay up-to-date with your remote repository?
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
+  A fork is a copy of a repository on GitHub. Use this when you want to make changes to a 
+  repository when you don't have access to the original repository. Forks: are clones made on
+  GitHub from other's repositories to your new made repository (on GitHub).
+  A clone is copy of a repository. This can be on the same machine, but it can also be a 
+  clone from a GitHub repository to your own machine. Use this for collaborating. Clones: are 
+  clones of some repository (local or remote) to new location mostly locally.
+  Branches are leafs on the master branch. Those can be seen as a side track in which you can 
+  change code without changing the master branch. Use this for creating new features/bug 
+  fixes. Branches: are branches emerging from master branch which are in the same repository.
+  
+  Un fork es una copia del un repository dentro de GitHub en nuestra propia cuenta de 
+  usuario. Con el Fork se realiza una copia en nuestra cuenta sin necesidad de tenerla 
+  localmente. El Fork es útil para modificar código cuando no tenemos acceso y/o permiso a 
+  modificar el repository original. El Fork solo existe dentro del contexto de GitHub.
+  Un Clon es una copia de un repository local o remoto. La copia puede residir nuestra máquina
+  local o dentro de GitHub. El uso del Clon es útil para colaborar en un proyecto de manera 
+  remota y con un equipo de colaboradores.
+  Los Branch son ramas que nacen del tronco principal. El Branch puede ser visto como código 
+  creado de manera paralela al código del tronco principal. Con el Branch se crea código 
+  paralelo con el fin de hacer pruebas de nuevas características o de corrección de errores 
+  sin afectar el código contenido en el tronco principal.
 
-    Fill in your answer here
+
+  
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
