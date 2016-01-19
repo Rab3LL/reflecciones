@@ -44,8 +44,11 @@ stored locally?
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
-
-    Fill in your answer here
+  Se tendría que enviar los documentos vía email, Dropbox o en una carpeta compartida en red 
+  con el equipo de trabajo. Lo malo de hacer esto es que se perdería la historia de cambios 
+  realizados en el proyecto. Lo bueno de esta forma de trabajoar sería que no se deben usar 
+  los engorrosos comandos de Git.
+  
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
